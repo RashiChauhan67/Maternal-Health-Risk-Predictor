@@ -8,8 +8,6 @@ The Maternal Health Risk Predictor is a machine learning-based web application d
 
 - Predicts maternal health risk intensity based on various input parameters.
 - User-friendly web interface for entering patient data.
-- Real-time risk assessment using a trained machine learning model.
-- Educational resources and insights about maternal health risks.
 
   
 ## Dataset 
@@ -27,9 +25,10 @@ Link to dataset used: [https://www.kaggle.com/datasets/drmbsharma/maternal-healt
 
 1. Enter the patient's demographic and health data.
 2. Click the "Predict" button to receive a risk assessment.
-3. Explore additional information and educational resources.
+3. Explore additional information about the dataset.
 
-**Disclaimer:** While the model's training accuracy is 95%, it may produce incorrect predictions during real-time use. Always consult with healthcare professionals for accurate assessments and advice.
+<font color="red">**Disclaimer:** While the model's training accuracy is 95%, it may produce incorrect predictions during real-time use. Always consult with healthcare professionals for accurate assessments and advice.</font>
+
 
 ## Contributions
 
