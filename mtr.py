@@ -1,20 +1,12 @@
 import streamlit as st
 import pickle
 
-# import os
-
-# file_path = os.path.abspath('/Users/HP/Documents/CODING/Jupyter/maternal_risk/model.pkl')
-
-# with open(file_path, "rb") as pickle_in:
-#     model = pickle.load(pickle_in)
-# Load the model
 pickle_in = open("model.pkl", "rb")
 model = pickle.load(pickle_in)
 
 if 'show_about_predictions' not in st.session_state:
     st.session_state.show_about_predictions = False
 
-# Custom CSS style
 st.markdown(
     """
     <style>
@@ -80,8 +72,6 @@ def main():
     st.markdown("<h1 class='title'>Maternal Health Risk Predictor</h1>", unsafe_allow_html=True)
     st.markdown("<div class='header'></div>", unsafe_allow_html=True)
 
-    # Header and sidebar for user input
-    # st.sidebar.header('User Input')
     age = st.slider("Age (in years)",0,100)
     sBP = st.text_input("Systolic BP (in mmHg)")
     dBP = st.text_input("Diastolic BP (in mmHg)")
@@ -91,7 +81,6 @@ def main():
 
     result = ""
     if st.button("Predict", key="predict_button"):
-        # if age.isdigit() and sBP.isdigit() and dBP.isdigit() and bs.isdigit() and btemp.isdigit() and heart_rate.isdigit():
             age = int(age)
             sBP = int(sBP)
             dBP = int(dBP)
@@ -99,8 +88,6 @@ def main():
             btemp = int(btemp)
             heart_rate = int(heart_rate)
             result = predict_model(age, sBP, dBP, bs, btemp, heart_rate)
-        # else:
-        #     st.sidebar.error("Please enter valid numeric values for input features.")
     
     if result:
         st.success(f"The predicted risk is: {result}")
