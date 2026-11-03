@@ -36,7 +36,7 @@ streamlit run mtr.py
 2. Click the "Predict" button to receive a risk assessment.
 3. Explore additional information about the dataset.
 
-<font color="red">**Disclaimer:** While the model's training accuracy is 95%, it may produce incorrect predictions during real-time use. Always consult with healthcare professionals for accurate assessments and advice.</font>
+> **Disclaimer:** While the model's training accuracy is 95%, it may produce incorrect predictions during real-time use. Always consult with healthcare professionals for accurate assessments and advice.
 
 
 ## Project Structure
