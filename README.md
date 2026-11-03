@@ -21,6 +21,15 @@ Link to dataset used: [https://www.kaggle.com/datasets/drmbsharma/maternal-healt
 - Machine Learning (Scikit-Learn)
 - HTML/CSS for UI design
 
+## Setup
+
+```bash
+git clone https://github.com/RashiChauhan67/Maternal-Health-Risk-Predictor.git
+cd Maternal-Health-Risk-Predictor
+pip install -r requirements.txt
+streamlit run mtr.py
+```
+
 ## Usage
 
 1. Enter the patient's demographic and health data.
