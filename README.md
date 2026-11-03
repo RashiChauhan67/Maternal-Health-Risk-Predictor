@@ -12,7 +12,7 @@ The Maternal Health Risk Predictor is a machine learning-based web application d
   
 ## Dataset 
 
-Link to dataset used: [https://www.kaggle.com/datasets/drmbsharma/maternal-health-risk-data-set?rvi=1].
+Link to dataset used: [Maternal Health Risk Data Set (Kaggle)](https://www.kaggle.com/datasets/drmbsharma/maternal-health-risk-data-set).
 
 ## Technology Stack
 
