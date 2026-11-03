@@ -39,6 +39,13 @@ streamlit run mtr.py
 <font color="red">**Disclaimer:** While the model's training accuracy is 95%, it may produce incorrect predictions during real-time use. Always consult with healthcare professionals for accurate assessments and advice.</font>
 
 
+## Project Structure
+
+- `mtr.py` – Streamlit app
+- `model.pkl` – trained model used by the app
+- `Maternal_risk.ipynb` – data exploration and model training
+- `maternal_health_image.jpg` – image used in the app
+
 ## Contributions
 
 Contributions and enhancements to this project are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
